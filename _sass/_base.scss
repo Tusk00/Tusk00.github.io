@@ -224,9 +224,9 @@ header {
 
 .portfolio-box {
     position: relative;
-    display: block;
+    display: contents;
     max-width: 650px;
-    margin: 0 auto;
+    margin: 1% 0;
     .portfolio-box-caption {
         color: rgb(255, 255, 255);
         opacity: 0;
