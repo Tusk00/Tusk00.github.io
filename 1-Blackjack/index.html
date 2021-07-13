@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: left;
+    padding: 32px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Blackjack</h1>
+
+
+<p>This was a project for a object oriented programming class which i chose to recreate blackjack.</p>
+<p>I decided to code this in python for its ease of use and the fact that its capable of machine learning which I have a lot of interest in.</p>
+<p>The idea was fairly simple, create an array for a card that contained all the suits and numbers in a deck. </p>
+<p>Then I created the deck which includes a counter to ensure there is 52 cards, a function to shuffle the cards, as well as a function to return a 
+    card if it is a duplicate and delete it, and finally a function to deal the cards.
+</p>
+<p>The final class was the game class. This contains all of the game rules, gives you the option to stay, hit, or quit, and much more.
+    To simplify the game i decided to make face cards all worth 10 and an ace being either 1 or 11 depending on your hand count.
+    This class also keeps track of the games previously played and shows counters for either wins or losses.
+</p>
+<p>I would love to share my code with you if you are interested to see it, just send me an email and i can send the file.</p>
+
+</div>
+
+
+
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+    <img src="Blackjack1.JPG" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Blackjack2.JPG" style="width:100%">
+    </div>
+</div>
+
+</body>
+</html>
