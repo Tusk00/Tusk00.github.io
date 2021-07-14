@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: left;
+    padding: 32px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Employee Payroll/Invoices</h1>
+
+
+<p>This program is used to keep track of people who work for you and you can also add invoices. It adds together the
+    prices of the invoices, and how ever much each employee makes on their paycheck. </p>
+<p>For employees you can track their hire date, id number, life insurance company name, life insurance amount,
+    dependents, and their pay.  </p>
+<p> You also have the option to add employees to workgroups. You can make one of the employees a supervisor
+    and it displays all employees in the workgroup with their id numbers. </p>
+<p>The invoices display the name of the item bought, how many you bought, the price of each item, and the total
+    for all of the items. At the very bottom I included the total amount of money that is going to be paid for this pay 
+    period. </p>
+
+</div>
+
+
+
+<!-- Photo Grid -->
+    
+    <div class="row">
+    <div class="center">
+        <img src="Payroll1.jpg" style="width:100%">
+    </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: left;
+    padding: 32px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Asteroids</h1>
+
+
+<p> I decided to take on a bigger project and came across asteroids.  This was my first game made using pygame coded in
+    python aswell and i would say it was a success. </p>
+<p> This is just like the old Asteroids game when you shoot a big asteroid it breaks into 2 and then those break into 3
+    each. The asteroids move at a random velocity and start in a random spot but a certain distance away from the spaceship
+    so you dont die right away.  </p>
+<p> The spaceship moves like its in space where there is no gravity the ship will just keep going. I should add a brake 
+    to the ship, there isn't one currently you have to flip the ship and go the other way to slow down. The ship resembles
+    the gardians of the galaxy ship which i really like.  </p>
+<p> I would love to share my code with you if you are interested to see it, just send me an email and i can send the file. </p>
+
+</div>
+
+
+
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+    <img src="Asteroids1.jpg" style="width:100%">
+    <img src="Asteroids2.jpg" style="width:100%">
+    </div>
+
+    <div class="column">
+    <img src="Asteroids3.jpg" style="width:100%">
+    <img src="Asteroids4.jpg" style="width:100%">
+    </div>
+
+    <div class="column">
+    <img src="Asteroids5.jpg" style="width:100%">
+    <img src="Asteroids6.jpg" style="width:100%">
+    </div>
+</div>
+
+</body>
+</html>

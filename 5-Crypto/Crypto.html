@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: left;
+    padding: 32px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Mining Rig</h1>
+
+
+<p> I decided a few months ago to build a cryptocurrency mining rig to make some extra money. I searched for graphics
+    cards for about a month and a half until i came upon 7 RX580 which I bought and are currently in use. </p>
+<p> I currently have 7 RX580 8gb and 1 1060 6gb, which have all been overclocked to make a total of about 230 Mh. It
+    has been running very smoothly for about two weeks now mining Ethereum. 
+</p>
+<p> I used a wire rack to hold the graphics cards and 3D printed a mount that the wire rack goes into on one end and 
+    the graphics card screws into the other side with a wood screw insert and holds all 8 very well. </p>
+<p> The motherboard, cpu, ram, and ssd are powered with an old 550 watt power supply I had. The graphics cards which
+    take up about 800 watts are powered with a 2600 watt server power supply. This power supply only runs off of 220v 
+    so I had to install that as well. 
+</p>
+<p> I am running this on linux hiveOS mostly because linux is much more stable than windows and this is gonna be running
+    24/7 and I dont want it crashing.
+</p>
+<p> </p>
+
+</div>
+
+
+
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+    <img src="Crypto1.jpg" style="width:100%">
+    <img src="Crypto2.jpg" style="width:200%">
+  </div>
+  <div class="column">
+    <img src="Crypto3.jpg" style="width:100%">
+    </div>
+</div>
+
+</body>
+</html>
